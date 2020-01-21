@@ -31,7 +31,7 @@ Sample Screen
 Add dependency in your gradle:
 ```gradle
 dependencies {
-    implementation 'com.gpfreetech:awesome-code-scanner:1.1.0'
+    implementation 'com.gpfreetech:AwesomeCodeScanner:1.1'
 }
 ```
 ### Step 2
