@@ -1,13 +1,0 @@
-
-Qsquid:S1141f"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-Gsquid:S24465"0"notify" may not wake up the appropriate thread.(ÂÌ÷ˆ
-isquid:S3776V"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(“–ış
-=squid:S3398K"&Move this method into "DecoderThread".( Æ ³
-bsquid:S2142h"FEither re-interrupt this method or rethrow the "InterruptedException".(Ñ‘Åüÿÿÿÿ
-Esquid:S3077".Remove the "volatile" keyword from this field.(¾Ãë±
-o
-squid:S135^"YReduce the total number of break and continue statements in this loop to use at most one.(´ÿÕ™
-Asquid:S00108p")Either remove or fill this block of code.(×ˆË
-Esquid:S3077".Remove the "volatile" keyword from this field.(ˆ—ØÈ
-Jsquid:S3077".Remove the "volatile" keyword from this field.(èœ×ıÿÿÿÿ
-g squid:LabelsShouldNotBeUsedCheckX";Refactor the code to remove this label and the need for it.(²°
