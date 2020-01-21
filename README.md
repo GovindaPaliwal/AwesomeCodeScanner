@@ -1,9 +1,24 @@
+<h1 align="center">Awesome Code scanner </h1>
+
+[ ![Download](https://api.bintray.com/packages/gpfreetech/AwesomeCodeScanner/AwesomeCodeScanner/images/download.svg?version=1.1) ](https://bintray.com/gpfreetech/AwesomeCodeScanner/AwesomeCodeScanner/1.1/link)
+[ ![Bintray](https://img.shields.io/badge/Bintray-v1.1-red) ](https://bintray.com/gpfreetech/AwesomeCodeScanner/AwesomeCodeScanner/1.1/link)
+
+
+![Github Followers](https://img.shields.io/github/followers/govindapaliwal?label=Follow&style=social)
+![GitHub stars](https://img.shields.io/github/stars/govindapaliwal/AwesomeCodeScanner?style=social)
+![GitHub forks](https://img.shields.io/github/forks/govindapaliwal/AwesomeCodeScanner?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/govindapaliwal/AwesomeCodeScanner?style=social)
+
 
 Awesome Code scanner library for [Android](https://developer.android.com), 
 This is multi code scanner module. You can scan QR, Barcode etc in your app using this library.
-This library is based on [ZXing](https://github.com/zxing/zxing).
+This library is based on [ZXing](https://github.com/zxing/zxing). If you are not familiar with ZXing then check [this](https://github.com/zxing/zxing). link 
 
-### Features
+Sample Screen
+------
+![Sample][image_sample]
+
+### Why Awesome Code scanner
 * Scanning Animation 
 * Back and front facing cameras Supported
 * You Can customize viewfinder View
@@ -11,7 +26,7 @@ This library is based on [ZXing](https://github.com/zxing/zxing).
 * Portrait and landscape screen orientations
 * Focus on Touch
 
-### How To Use ([example](https://github.com))
+### Uses ([example](https://github.com))
 ### Step 1
 Add dependency in your gradle:
 ```gradle
@@ -21,10 +36,11 @@ dependencies {
 ```
 ### Step 2
 Add camera permission to AndroidManifest.xml
-And Don't forget about dynamic permissions on API >= 23; You need to add dynamic permission.
 ```xml
 <uses-permission android:name="android.permission.CAMERA"/>
 ```
+Don't forget to add dynamic permissions on API >= 23;
+
 ### Step 3
 Here your layout file code:
 ```xml
@@ -114,7 +130,8 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 ### Additional Methods
-### Change Camera and set BACK or FRONT
+
+### Change / set BACK or FRONT Camera
 ```
 mCodeScanner = new GpCodeScanner(this, scannerView,GpCodeScanner.CAMERA_FRONT);
 ```
@@ -131,4 +148,7 @@ app:isAnimated="true | false"
 ### Who's using it
 Does your app use Awesome Code scanner library? If you want to be featured on this list drop me a line.
 
-![Preview screenshot](https://raw.githubusercontent.com/.png)
+## How to make contributions
+Please read and follow the steps in [CONTRIBUTING.md](/CONTRIBUTING.md)
+
+[image_sample]:https://raw.githubusercontent.com/GovindaPaliwal/AwesomeCodeScanner/master/screenshots/sample.gif

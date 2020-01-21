@@ -1,0 +1,2 @@
+include ':app', ':awesome-code-scanner'
+rootProject.name='Awasome Code Scanner'
