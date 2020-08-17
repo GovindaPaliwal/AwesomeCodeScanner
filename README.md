@@ -1,5 +1,6 @@
 <h1 align="center">Awesome Code scanner </h1>
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [ ![Download](https://api.bintray.com/packages/gpfreetech/AwesomeCodeScanner/AwesomeCodeScanner/images/download.svg?version=1.1) ](https://bintray.com/gpfreetech/AwesomeCodeScanner/AwesomeCodeScanner/1.1/link)
 [ ![Bintray](https://img.shields.io/badge/Bintray-v1.1-red) ](https://bintray.com/gpfreetech/AwesomeCodeScanner/AwesomeCodeScanner/1.1/link)
 
